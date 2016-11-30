@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutdummy4"
+        android:layout_weight="0.08">
+    <Button
+        android:layout_width="75sp"
+        android:layout_height="35sp"
+        android:background="@drawable/backselector"
+        android:id="@+id/bBackCh1Info"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutdummy5"
+        android:layout_weight="0.62">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+
+        android:layout_margin="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="20sp"
+        android:text="@string/infoc1s1"
+        android:id="@+id/tVINF1"
+        android:layout_gravity="center_horizontal" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutdummy6"
+        android:layout_weight="0.30">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:background="@drawable/aboutselector"
+        android:text="@string/bGoInteractive"
+        android:id="@+id/bGoInteractive"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

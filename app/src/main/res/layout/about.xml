@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="75sp"
+        android:layout_height="35sp"
+        android:background="@drawable/backselector"
+        android:id="@+id/bBackAbout" />
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="260sp"
+        android:layout_height="40sp"
+        android:textSize="30sp"
+        android:text="@string/ATA"
+        android:id="@+id/tVATA"
+        android:layout_gravity="center_horizontal"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:lineSpacingMultiplier="2"
+        android:text="@string/ABT"
+        android:id="@+id/tVABT"
+        android:layout_gravity="center_horizontal" />
+    </ScrollView>
+</LinearLayout>

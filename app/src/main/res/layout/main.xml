@@ -1,0 +1,77 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_height="0dip"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:id="@+id/layoutdummy1"
+                  android:layout_weight="0.15">
+        <TextView
+            android:layout_width="140sp"
+            android:layout_marginTop="20sp"
+            android:layout_height="70sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Circuits"
+            android:id="@+id/tVCRT"
+            android:textSize="35sp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutdummy2"
+        android:layout_weight="0.6">
+
+
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="80sp"
+            android:textSize="27sp"
+            android:background="@drawable/chapterselector"
+            android:text="@string/bChaptersButton"
+            android:textColor="#FFFFFF"
+            android:id="@+id/bCHPT"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:id="@+id/iVBB"
+            android:src="@drawable/icon"
+            android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="0dip"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layoutdummy3"
+            android:layout_weight="0.25">
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="60sp"
+                android:text="@string/bAboutButton"
+                android:background="@drawable/chapterselector2"
+                android:id="@+id/bABT"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="200sp"
+                android:layout_height="60sp"
+                android:text="@string/bSettingsButton"
+                android:background="@drawable/chapterselector2"
+                android:id="@+id/bSTNG"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+</LinearLayout>
+
+

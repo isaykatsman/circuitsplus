@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Circuits+</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Circuits">Circuits+</string>
+    <string name="bChaptersButton">Chapters</string>
+    <string name="bAboutButton">About</string>
+    <string name="bSettingsButton">Settings</string>
+    <string name="Chapters">Chapters</string>
+    <string name="Chapter1">Chapter One</string>
+    <string name="bBackButton">Back</string>
+    <string name="infoc1s1">A circuit in its most basic form is a connection of multiple electric components. Common components that you may know of are things like batteries or light bulbs. In this activity, you will use a battery to turn on a light.</string>
+    <string name="bGoInteractive">Go Interactive</string>
+    <string name="Workspace">Workspace</string>
+    <string name="Toolbox">Toolbox</string>
+    <string name="bHint">\?</string>
+    <string name="ATA">About The Authors</string>
+    <string name="ABT">This app was developed by two high school students, Isay Katsman and Jack Sturtevant. This app was developed for the Apps For Good project, a program that focuses on making app development accessible to high school students. The inspiration for this app started with both developers deciding that they wanted to help educate the youth. Research showed that there is a large gap in accessible education for circuitry, especially in a kid friendly manner. The team decided that an app that would be able to educate the youth in an interactive manner would fill a gap in the education system.   </string>
+    <string name="STNG">Settings</string>
+    <string name="swSocNet">Social Networking</string>
+    <string name="swSND">Sound</string>
+    <string name="swIntSeg">Interactive Suggestion</string>
+    <string name="title_activity_chapter1_s1">Interactive Suggestion</string>
+    <string name="title_activity_chapter1_s1_intro">Chapter1S1Intro</string>
+    <string name="title_activity_circuit_interactive">CircuitInteractive</string>
+    <string name="title_activity_chapter2_s2_intro">Chapter2S2Intro</string>
+    <string name="title_activity_chapter2_s1">Chapter2S1</string>
+    <string name="title_activity_chapter3_s1">Chapter3S1</string>
+    <string name="title_activity_chapter3_s1_intro">Chapter3S1Intro</string>
+    <string name="title_activity_chapter4_s1">Chapter4S1</string>
+    <string name="title_activity_chapter4_s1_intro">Chapter4S1Intro</string>
+    <string name="title_activity_chapter5_s1">Chapter5S1</string>
+    <string name="title_activity_chapter5_s1_intro">Chapter5S1Intro</string>
+</resources>

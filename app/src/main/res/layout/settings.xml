@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="75sp"
+        android:layout_height="35sp"
+        android:background="@drawable/backselector"
+        android:id="@+id/bBackSettings" />
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="115sp"
+        android:layout_height="40sp"
+        android:textSize="30sp"
+        android:text="@string/STNG"
+        android:id="@+id/tVSTNGS"
+        android:layout_gravity="center_horizontal"/>
+
+    <Switch
+        android:layout_margin="20sp"
+        android:layout_width="250sp"
+        android:textSize="20sp"
+        android:layout_height="30sp"
+        android:text="@string/swSocNet"
+        android:id="@+id/SocNet"
+        android:layout_gravity="center_horizontal" />
+    <Switch
+        android:layout_margin="20sp"
+        android:layout_width="250sp"
+        android:textSize="20sp"
+        android:layout_height="30sp"
+        android:text="@string/swSND"
+        android:id="@+id/Sound"
+        android:layout_gravity="center_horizontal" />
+    <Switch
+        android:layout_margin="20sp"
+        android:layout_width="250sp"
+        android:textSize="20sp"
+        android:layout_height="30sp"
+        android:text="@string/swIntSeg"
+        android:id="@+id/IntSeg"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
